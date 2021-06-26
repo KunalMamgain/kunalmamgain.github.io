@@ -63,4 +63,5 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 ##### For git I now use [gh](https://github.com/cli/cli). It is written in go and satisfies my previous created git aliases. I would suggest you to try that.
 
-
+---
+With this small introduction to aliases I hope you are able to understand something and will try to implement your own type of aliases.
