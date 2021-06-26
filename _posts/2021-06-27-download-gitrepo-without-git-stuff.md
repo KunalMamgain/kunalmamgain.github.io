@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "Download a particular file/directory from github"
+title: "Download a Particular File/Folder from Github"
 description: "Download a single folder or directory from a GitHub repo"
 comments: true
 keywords: "github,git,svn"
 ---
-This is a quick note regarding downloading a single folder or directory from a GitHub repository.
-### Download a particular file/directory from git without all extra git stuff.
-
 For this we can use a tool call `svn`. Just do `svn export <git-url> `
 
 * Make sure to remove /tree/master/ and add /trunk/ to the url
