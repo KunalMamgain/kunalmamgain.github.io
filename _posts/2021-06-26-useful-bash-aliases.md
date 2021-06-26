@@ -17,15 +17,10 @@ Creating an alias is simple. All you need to do is go to your home directory and
 ```bash 
 source ~/.aliases
 ```
+
 ### Some of my personal aliases
 
-In my opionion learning by example is the best practice and with that here are few of my personal aliases which I use daily.
-
-* To open common programs
-```bash
-alias v="vim"
-alias f="ranger"
-```
+In my opionion learning by example is the best practice and with that here are few of my personal aliases which i use daily.
 
 * Related to listing of files in a directory
 ```bash
@@ -35,11 +30,8 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 ```
-Here I use a program called [lsd](https://github.com/Peltoche/lsd) for giving colourized output for ls with icons make sure to use [Hack-Nerd Font](https://github.com/ryanoasis/nerd-fonts).
-* To remove a Directory
-```bash
-alias r="rm -rf"
-```
+Here I use a program called [lsd](https://github.com/Peltoche/lsd) for giving colourized output for ls with icons `make sure to use Hack-Nerd Font`.
+
 * Get your public ip 
 ```bash
 alias myip="curl ipinfo.io/ip"
@@ -57,16 +49,6 @@ This can used to pause bash history and then enable it.
 alias ph="set +o history"
 alias sh="set -o history"
 ```
-* Some of my [youtube-dl](https://github.com/ytdl-org/youtube-dl) aliases
-```bash
-alias ytm="youtube-dl -f bestaudio "
-alias y='youtube-dl -o "%(channel)s_%(title)s-%(id)s.%(ext)s" '
-alias ys='youtube-dl -o "%(channel)s_%(title)s-%(id)s.%(ext)s" --embed-subs --write-sub '
-```
-
-* For Github releated commands, I now use [gh](https://github.com/cli/cli). It is written in go and satisfies my previous created git aliases. I would suggest you to try that.
-
-
 #### Some macos specific aliases
 
 * Used to find and clean all occurences of `.DS_Store` file in a directory and its subdirectories.
@@ -79,7 +61,6 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 ```
 
-**Note:** To get list of all aliases in your shell you can use
-```bash 
-alias -p
-```
+##### For git I now use [gh](https://github.com/cli/cli). It is written in go and satisfies my previous created git aliases. I would suggest you to try that.
+
+
