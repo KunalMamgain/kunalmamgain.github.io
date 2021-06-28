@@ -5,6 +5,7 @@ description: "Download a single folder or directory from a GitHub repo"
 comments: true
 keywords: "github,git,svn"
 ---
+
 For this we can use a tool call `svn`. Just do `svn export <git-url> `
 
 * Make sure to remove /tree/master/ and add /trunk/ to the url
