@@ -11,7 +11,7 @@ This is my first blog and i will try to keep it simple and easy to understand. I
 Alias are like shortened version of a command than can be used instead of typing-out the whole command. These are quite helpful if you have some common commands that you use on a regualar basis. The alias concept is not something that is particular to bash but can used by different shells like zsh, fish but there is a little difference in syntax. Here I will be giving some examples that are written for bash shell.
 
 ### Get started
-Creating an alias is simple. All you need to do is go to your home directory and you can get started by writing `alias [alias_name]="[command]"` in your `.bashrc` file or you can create a `.aliases` file and source it in from your `.bashrc` file. I prefer to do the latter as in that way I can keep a clean record of my aliases in a single file.
+Creating an alias is simple. All you need to do is go to your home directory and you can get started by writing `alias [alias_name]="[command]"` in your `.bashrc` file or you can create an `.aliases` file and source it in from your `.bashrc` file. I prefer to do the latter as in that way I can keep a clean record of my aliases in a single file.
 
 **Note:** You can source your `.aliases` file by typing 
 ```bash 
