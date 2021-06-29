@@ -1,0 +1,59 @@
+I"–<p>This is my first blog and i will try to keep it simple and easy to understand. In this blog I am going to talk about what are alias and what is the use of them.</p>
+
+<h3 id="what-is-a-alias-and-why-use-them">What is a Alias and Why use them</h3>
+<p>Alias are like shortened version of a command than can be used instead of typing-out the whole command. These are quite helpful if you have some common commands that you use on a regualar basis. The alias concept is not something that is particular to bash but can used by different shells like zsh, fish but there is a little difference in syntax. Here I will be giving some examples that are written for bash shell.</p>
+
+<h3 id="get-started">Get started</h3>
+<p>Creating an alias is simple. All you need to do is go to your home directory and you can get started by writing <code class="highlighter-rouge">alias [alias_name]="[command]"</code> in your <code class="highlighter-rouge">.bashrc</code> file or you can create an <code class="highlighter-rouge">.aliases</code> file and source it in from your <code class="highlighter-rouge">.bashrc</code> file. I prefer to do the latter as in that way I can keep a clean record of my aliases in a single file.</p>
+
+<p><strong>Note:</strong> You can source your <code class="highlighter-rouge">.aliases</code> file by typing</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> ~/.aliases
+</code></pre></div></div>
+
+<h3 id="some-of-my-personal-aliases">Some of my personal aliases</h3>
+
+<p>In my opionion learning by example is the best practice and with that here are few of my personal aliases which i use daily.</p>
+
+<ul>
+  <li>Related to listing of files in a directory
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias ls</span><span class="o">=</span><span class="s2">"lsd"</span>
+<span class="nb">alias </span><span class="nv">l</span><span class="o">=</span><span class="s2">"ls -l"</span>
+<span class="nb">alias </span><span class="nv">la</span><span class="o">=</span><span class="s2">"ls -a"</span>   
+<span class="nb">alias </span><span class="nv">lla</span><span class="o">=</span><span class="s2">"ls -la"</span>
+<span class="nb">alias </span><span class="nv">lt</span><span class="o">=</span><span class="s2">"ls --tree"</span>
+</code></pre></div>    </div>
+    <p>Here I use a program called <a href="https://github.com/Peltoche/lsd">lsd</a> for giving colourized output for ls with icons <code class="highlighter-rouge">make sure to use Hack-Nerd Font</code>.</p>
+  </li>
+  <li>Get your public ip
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">myip</span><span class="o">=</span><span class="s2">"curl ipinfo.io/ip"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Playing music using mpv
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">mm</span><span class="o">=</span><span class="s2">"mpv ~/Path_to_music_file"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Get weather info
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">weather</span><span class="o">=</span><span class="s2">"clear &amp;&amp; curl wttr.in"</span>
+</code></pre></div>    </div>
+    <p>This can used to pause bash history and then enable it.</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">ph</span><span class="o">=</span><span class="s2">"set +o history"</span>
+<span class="nb">alias </span><span class="nv">sh</span><span class="o">=</span><span class="s2">"set -o history"</span>
+</code></pre></div>    </div>
+    <h4 id="some-macos-specific-aliases">Some macos specific aliases</h4>
+  </li>
+  <li>Used to find and clean all occurences of <code class="highlighter-rouge">.DS_Store</code> file in a directory and its subdirectories.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">cleanup</span><span class="o">=</span><span class="s2">"find . -type f -name '*.DS_Store' -ls -delete"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>This can used to hide and show your desktop.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">hidedesktop</span><span class="o">=</span><span class="s2">"defaults write com.apple.finder CreateDesktop -bool false &amp;&amp; killall Finder"</span>
+<span class="nb">alias </span><span class="nv">showdesktop</span><span class="o">=</span><span class="s2">"defaults write com.apple.finder CreateDesktop -bool true &amp;&amp; killall Finder"</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h5 id="for-git-i-now-use-gh-it-is-written-in-go-and-satisfies-my-previous-created-git-aliases-i-would-suggest-you-to-try-that">For git I now use <a href="https://github.com/cli/cli">gh</a>. It is written in go and satisfies my previous created git aliases. I would suggest you to try that.</h5>
+
+<hr />
+<p>With this small introduction to aliases I hope you are able to understand something and will try to implement your own type of aliases.</p>
+:ET
