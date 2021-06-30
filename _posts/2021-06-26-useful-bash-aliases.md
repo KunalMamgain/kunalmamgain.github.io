@@ -78,9 +78,9 @@ to my `.aliases` file and added the following command in `.gitconfig`
     cane = commit --amend --no-edit
     lo = log --oneline -n 10
     pr = pull --rebase
-    a= add .
-    rh=reset --hard
-    cm=commit -m
+    a = add .
+    rh = reset --hard
+    cm = commit -m
 ```
 
 <br>
