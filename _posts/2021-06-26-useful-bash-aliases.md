@@ -61,7 +61,30 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 ```
 
-##### For git I now use [gh](https://github.com/cli/cli). It is written in go and satisfies my previous created git aliases. I would suggest you to try that.
+##### For Github
+* I have added  
+```bash 
+alias g="git" 
+``` 
+to my `.aliases` file and added the following command in `.gitconfig`
 
+```bash
+[alias]
+    s = status
+    d = diff
+    co = checkout
+    br = branch
+    last = log -1 HEAD
+    cane = commit --amend --no-edit
+    lo = log --oneline -n 10
+    pr = pull --rebase
+    a= add .
+    rh=reset --hard
+    cm=commit -m
+```
+
+<br>
 ---
-With this small introduction to aliases I hope you are able to understand something and will try to implement your own type of aliases.
+<br>
+
+_With this small introduction to aliases I hope you are able to understand something and will try to implement your own type of aliases._
