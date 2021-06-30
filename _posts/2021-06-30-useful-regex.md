@@ -16,8 +16,6 @@ cat <any-file> | grep -Eo '<insert-regex-expression>'
 ((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d))))
 ```
 * To get all links from a file
-
 ```
 (?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-?=%.]+
-
 ```
