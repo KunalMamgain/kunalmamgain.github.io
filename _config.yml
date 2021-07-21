@@ -1,63 +1,52 @@
-# Site settings
-title_left    : "Kunal Mamgain"
-#title_right   : "space" # default: ""
-#description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace, Kunal Mamgain,kunal mamgain"
-url           : https://kunalmamgain.github.io # site url
-baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+# Setup
+title: Kunal Mamgain
+url: https://getpoole.com
+paginate: 1
+baseurl: ""
+permalink: pretty
 
-google_analytics  : UA-XXXXX-XX
-twitter_username  : ""
-comments_enabled  : false # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : ""
-postshare_enabled : false
-
-# Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
-
-source      : ./
-destination : ./_site
-
-# Sass configuration
-sass:
-  sass_dir  : assets/scss
-  style     : compressed # expanded
-
-# Author settings
-author:
-  name     : "Kunal Mamgain"
-
+# Gems
 plugins:
-  - jekyll-sitemap
-  - bourbon
+  - jekyll-gist
   - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-
+  - jekyll-seo-tag
+  - jemoji
+# Optimize Jekyll
 exclude:
-  - "gulp"
-  - "node_modules"
-  - "bower"
-  - "bower_components"
-  - "config.rb"
-  - "src"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - ".rvmrc"
-  - ".rbenv-version"
-  - "package.json"
-  - "gulpfile.js"
-  - "README.md"
-  - "Rakefile"
-  - "changelog.md"
-  - "script"
-  - "vendor"
-  - "thinkspace.gemspec"
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Kunal Mamgain
+  url: https://twitter.com/mdo
+  email: mamgainkunal@gmail.com
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Blog
+    url: /archive
+  
+  - title: About
+    url: /about
+
+  - title: Social
+    url: /social
+

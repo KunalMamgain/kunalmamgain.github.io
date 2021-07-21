@@ -5,7 +5,7 @@ description: "List of some useful regex one-liners"
 comments: true
 keywords: "regex,examples"
 ---
-This is list of some useful regex oneliners that were used by me in past. This list will get appended as I get to know more about other regex expressions.
+This is a list of some useful regex one liner that I used in the past. This list will get appended as I get to know more about other regex expressions.
 
 Here is a quick example of I use these expressions in bash.
 ```bash

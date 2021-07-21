@@ -1,8 +1,0 @@
-I"<p>For this we can use a tool call <code class="highlighter-rouge">svn</code>. Just do <code class="highlighter-rouge">svn export &lt;git-url&gt; </code></p>
-
-<ul>
-  <li>Make sure to remove /tree/master/ and add /trunk/ to the url</li>
-</ul>
-
-<p><strong>Note:</strong> It is a good practice is to first do <code class="highlighter-rouge">svn ls &lt;git-url&gt;</code> to see which files and folders will get downloaded, then do <code class="highlighter-rouge">svn export &lt;git-url&gt; </code> to download the file/folder.</p>
-:ET
