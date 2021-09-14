@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Brave Browser"
+title: "Brave Browser,better alternate to Google Chrome"
 description: "Why Brave Browser is better"
 comments: true
 keywords: "brave browser, security, privacy, open source"
 ---
 
-### Brave Browser
 
-#### Google dominance
+## Google dominance
 
 It is a well-known observation that Google is omnipresent. With over 92% in search engine market share and over 65% in web browser space as of August 2021.
 
@@ -17,7 +16,7 @@ The pervasiveness of google search, Chrome, Android OS, and youtube suite of pro
 For people bothered by this power of Google's power and reach, with this post, I will discuss the Brave Browser as viable alternate to Google Chrome. Switching to these will help you reduce your Google footprint while also increasing your privacy and security.
 
 
-#### HERE COMES BRAVE BROWSER
+## HERE COMES BRAVE BROWSER
 
 [Brave](https://brave.com/) is a modern, privacy-focussed web browser based on the same [Chromium](https://chromium.googlesource.com/chromium/src
 ) browser and [Blink](https://www.chromium.org/blink
@@ -55,7 +54,7 @@ Whilst some privacy-focused characteristics of Brave listed above are available 
 *__Note__* There are other Chromium-based browsers options, like [Opera](https://www.opera.com/
 ), [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium), and now even [Microsoft's Edge browser](https://www.microsoftedgeinsider.com/en-us). I favor Brave above all these alternatives due to its open-source development, native privacy, security features, timely updates, cross-platform support and synchronization, and its resemblance to Chrome.
 
-#### Conclusion
+## Conclusion
 
 The Web is now dominated by a few giant companies, chief among them Google. That market concentration is not healthy, so it benefits us to diversify where possible sensibly. Thankfully, with Brave and DuckDuckGo, alternatives to Chrome and Google Search, respectively, diversifying will incur little compromise while obtaining actual dividends, especially regarding privacy.
 The more people that use product like Brave, the healthier the Web will be.
