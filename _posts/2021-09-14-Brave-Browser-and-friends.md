@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brave Browser,better alternate to Google Chrome"
+title: "Brave Browser, better alternate to Google Chrome"
 description: "Why Brave Browser is better"
 comments: true
 keywords: "brave browser, security, privacy, open source"
@@ -16,7 +16,7 @@ The pervasiveness of google search, Chrome, Android OS, and youtube suite of pro
 For people bothered by this power of Google's power and reach, with this post, I will discuss the Brave Browser as viable alternate to Google Chrome. Switching to these will help you reduce your Google footprint while also increasing your privacy and security.
 
 
-## HERE COMES BRAVE BROWSER
+## Here comes Brave Browser
 
 [Brave](https://brave.com/) is a modern, privacy-focussed web browser based on the same [Chromium](https://chromium.googlesource.com/chromium/src
 ) browser and [Blink](https://www.chromium.org/blink
@@ -51,7 +51,7 @@ Notable Brave deviations from Chrome:
 Whilst some privacy-focused characteristics of Brave listed above are available as browser extensions to Chrome, namely the uBlock Origin and HTTPS Everywhere extensions, be aware that not all versions of Chrome support extensions, most frustratingly Chrome on mobile devices. Also, content-filtering extensions, such as uBlock, run the risk of being black-listed by Google one day. That will never be an issue for Brave since its security and privacy protections are built-in to the browser itself.
 
 
-*__Note__* There are other Chromium-based browsers options, like [Opera](https://www.opera.com/
+*__Note:__* There are other Chromium-based browsers options, like [Opera](https://www.opera.com/
 ), [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium), and now even [Microsoft's Edge browser](https://www.microsoftedgeinsider.com/en-us). I favor Brave above all these alternatives due to its open-source development, native privacy, security features, timely updates, cross-platform support and synchronization, and its resemblance to Chrome.
 
 ## Conclusion
